@@ -1,6 +1,16 @@
+import possiblityImage from "../../assets/possibility.png"
+import './possibilty.css'
 function Possiblity() {
-    return (<div>
-
+    return (<div className="gpt3_possibility section__padding " id="possibility">
+        <div className="gpt3_possibility_image">
+            <img src={possiblityImage} alt="possibitiy" />
+        </div>
+        <div className="gpt3_possibility_content">
+            <h4>Request Early Access to Get Started</h4>
+            <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
+            <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+            <h4>Request Early Access to Get Started</h4>
+        </div>
     </div>);
 }
 
